@@ -1,0 +1,16 @@
+.popular-categories {
+    padding-bottom: 120px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+}
