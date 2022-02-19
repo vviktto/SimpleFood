@@ -63,6 +63,10 @@
         stroke: $dark;
     }
 
+    &__info-icon {
+        margin-right: 7px;
+    }
+
     &__info-link {
         display: flex;
         align-items: center;
